@@ -3,7 +3,7 @@ const socketIO = require('socket.io');
 const favicon = require('serve-favicon');
 
 const app = express();
-const server = require('http').createServer(app);
+const server = http.createServer(app);
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
